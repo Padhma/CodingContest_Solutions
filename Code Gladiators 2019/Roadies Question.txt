@@ -1,0 +1,8 @@
+Find the subset of an array which has highest sum but the constraint is that no two numbers should have any digit in common.
+
+Example:
+Input : 121,23,3,333,4
+Output: 458 
+Explanation:
+The numbers 121 , 333, 4 do not have any of the digits in common and they form the maximum sum
+Hence, 121 + 333 + 4 = 458
