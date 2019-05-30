@@ -23,12 +23,15 @@ def dp(a,arr,alist):
     return arr[a]
 
 if __name__ == '__main__':
-    li = [121,23,3,333,4]
-    left = 1 << 10
-    memo = [None] * left
-    maxsum = 0
-    for i in range(left): 
-        memo[i] = -1
-    for i in range(left): 
-        maxsum = max(maxsum, dp(i, memo, li))
-    print('Maximum = ',maxsum)
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        li = list(map(int,input().split()))
+        left = 1 << 10
+        memo = [None] * left
+        maxsum = 0
+        for i in range(left): 
+            memo[i] = -1
+        for i in range(left): 
+            maxsum = max(maxsum, dp(i, memo, li))
+        print('Maximum = ',maxsum)

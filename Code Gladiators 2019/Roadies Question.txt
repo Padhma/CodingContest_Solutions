@@ -1,8 +1,21 @@
-Find the subset of an array which has highest sum but the constraint is that no two numbers should have any digit in common.
+There are N boxes in front of you. Each box has a number on it. Pick the subset of the boxes which has the maximum sum. But the numbers in the subset shouldn't contain same digits.
 
 Example:
+Test case 0:
 Input : 121,23,3,333,4
 Output: 458 
 Explanation:
 The numbers 121 , 333, 4 do not have any of the digits in common and they form the maximum sum
 Hence, 121 + 333 + 4 = 458
+
+Test case 1:
+Input: 14,12,23,45,39
+Output: 12 + 45 + 39 = 96
+
+Test case 2:
+Input: 3,5,7,2
+Output: 3+5+7+2 = 17
+
+Test case 3:
+Input: 32,42,52,62,72,82,92
+Output: 92
