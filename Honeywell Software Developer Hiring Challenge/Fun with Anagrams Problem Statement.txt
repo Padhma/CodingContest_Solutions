@@ -1,0 +1,29 @@
+Two strings are anagrams if they are permutations of each other. For example, "aaagmnrs" is an anagram of "anagrams". Given an array of strings, remove each string that is an anagram of an earlier string, then return the remaining array in sorted order.
+
+Constraints:
+1 <= n <= 1000
+1 <= |s[i]| <= 1000
+Each string s[i] is made up of characters in the range ascii[a-z]
+
+Test case 1:
+Input:
+4
+aaangrms
+code
+anagrams
+doce
+
+output:
+aaangrms
+code
+
+Test case 2:
+Input:
+4 
+poke
+kope
+ekop
+okep
+
+Output:
+poke
